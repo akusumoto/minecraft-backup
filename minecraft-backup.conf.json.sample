@@ -1,0 +1,12 @@
+{
+    "aws_access_key_id": "*******",
+    "aws_secret_access_key": "******",
+    "region_name": "ap-northeast-1",
+    "world_data_path": "C:\\Users\\kusumoto\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds",
+    "worlds": [
+        "EvzZZWjpAgA=",
+        "oMCHZhjmAAA="
+    ],
+    "s3_backet": "aks3-minecraft",
+    "n_backup_generation": "3"
+}
