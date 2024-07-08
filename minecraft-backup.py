@@ -11,7 +11,8 @@ import tempfile
 import shutil
 import sys
 
-PROGRAM_DIR = os.path.dirname(__file__)
+#PROGRAM_DIR = os.path.dirname(__file__)
+PROGRAM_DIR = os.path.dirname(os.path.abspath(sys.argv[0]))	
 CONFIG_PATH = os.path.join(PROGRAM_DIR, "minecraft-backup.conf.json")
 """ ex) minecraft-backup.conf.json
 {
