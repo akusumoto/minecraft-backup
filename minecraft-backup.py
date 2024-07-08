@@ -132,9 +132,9 @@ if __name__ == '__main__':
 		sys.exit(1)
 	
 	for world in config['worlds']:
+		info(f"backup {world}")
 		try:
 			if not is_backuped(backups, config['world_data_path'], world):
-				info(f"backup {world}")
 				obj = backup(s3_client, config['s3_backet'], config['world_data_path'], world)
 				backups.append(obj)
 			else:
